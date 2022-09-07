@@ -9,3 +9,6 @@ CREATE TABLE IF NOT EXISTS users (
 
 -- Seed
 INSERT INTO users (id, name, email) VALUES ('userid', 'IPQuants', 'admin@ipquants.com');
+
+-- TABLE_INIT_STATUS
+CREATE TABLE IF NOT EXISTS tbl_init_status ();

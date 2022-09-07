@@ -2,14 +2,12 @@ version: "3.8"
 
 services:
   postgresdb:
-    image: db
-    container_name: db
     build:
       context: .
       target: db
     environment:
-      - POSTGRES_USER=user
-      - POSTGRES_PASSWORD=password
+      - POSTGRES_USER=bunny
+      - POSTGRES_PASSWORD=best_to_use_secrets
       - POSTGRES_DB=sampledb
     ports:
       - 5432:5432
