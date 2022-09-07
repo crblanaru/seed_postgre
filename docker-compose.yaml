@@ -2,11 +2,11 @@ version: "3.8"
 
 services:
   postgresdb:
-    image: postgresdb
-    container_name: postgresdb
+    image: db
+    container_name: db
     build:
       context: .
-      target: postgresdb
+      target: db
     environment:
       - POSTGRES_USER=user
       - POSTGRES_PASSWORD=password
