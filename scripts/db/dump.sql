@@ -1,6 +1,6 @@
 -- CreateTable
-CREATE TABLE IF NOT EXISTS users (
-  "id" TEXT NOT NULL,
+CREATE TABLE IF NOT EXISTS bunnies (
+  "id" INT NOT NULL,
   "name" TEXT NOT NULL,
   "email" TEXT NOT NULL,
 
@@ -8,7 +8,7 @@ CREATE TABLE IF NOT EXISTS users (
 );
 
 -- Seed
-INSERT INTO users (id, name, email) VALUES ('userid', 'IPQuants', 'admin@ipquants.com');
+INSERT INTO users (id, name, email) VALUES (1, 'bunny', 'bunny@bunnyshell.com');
 
 -- TABLE_INIT_STATUS
 CREATE TABLE IF NOT EXISTS tbl_init_status ();
