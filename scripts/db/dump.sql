@@ -8,7 +8,7 @@ CREATE TABLE IF NOT EXISTS bunnies (
 );
 
 -- Seed
-INSERT INTO users (id, name, email) VALUES (1, 'bunny', 'bunny@bunnyshell.com');
+INSERT INTO bunnies (id, name, email) VALUES (1, 'bunny', 'bunny@bunnyshell.com');
 
 -- TABLE_INIT_STATUS
 CREATE TABLE IF NOT EXISTS tbl_init_status ();
